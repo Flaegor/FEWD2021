@@ -1,0 +1,38 @@
+
+nav ul{
+    background-color: ;
+}
+
+#description{
+    background-color: ;
+    color: ;
+}
+
+body{
+    font-size: 18px;
+}
+
+h1, h2, h3{
+    background-color: pink;
+    color: greenyellow;
+    font-size: 3rem;
+    font-family: cursive;
+    
+}
+
+p{
+    font-family: 'Gill Sans', sans-serif;
+    background: red;
+    font-size: 1.5rem;
+    max-width: 60rem;
+    text-align: left;
+    line-height: 2rem;
+    word-spacing: -0.1rem;
+    
+    
+}
+
+#introduction img{
+    max-height: 35rem;
+    float:right;
+}
