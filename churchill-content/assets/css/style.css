@@ -1,18 +1,25 @@
-
-nav ul{
-    background-color: ;
-}
-
+@import 'reset.css'
+/* REFORMAT THIS CSS */
 #description{
     background-color: ;
     color: ;
 }
 
+
+
 body{
     font-size: 18px;
+    /*width:1960px;*/
+    
 }
 
-h1, h2, h3{
+h1{
+    background-color: yellow;
+    font-family: monospace;
+    display: inline-block;
+    vertical-align: middle;
+}
+h2, h3{
     background-color: pink;
     color: greenyellow;
     font-size: 3rem;
@@ -20,19 +27,51 @@ h1, h2, h3{
     
 }
 
+header{
+    background-image: url(../house-images/churchill-house-2.jpg);
+    position: sticky;
+    top: 0
+}
+nav{
+    background-color: green;
+    display: inline-block;
+    /*position: relative;
+    top:-1rem;
+    width: 100%;*/
+}
+
+nav ul{
+    background-color: blue;
+
+}
+
+nav li{
+    background-color: red;
+    display: inline-block;
+    
+}
+
 p{
     font-family: 'Gill Sans', sans-serif;
-    background: red;
+    background: white;
     font-size: 1.5rem;
     max-width: 60rem;
     text-align: left;
     line-height: 2rem;
     word-spacing: -0.1rem;
-    
+    padding: 1rem;
+    border-left: .3rem solid #000;
+    margin: 5rem 0 1rem 2rem;
     
 }
+
 
 #introduction img{
     max-height: 35rem;
     float:right;
+}
+
+.row-hero{
+    width:1960;
+    margin-bottom; 5rem;
 }
