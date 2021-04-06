@@ -65,13 +65,41 @@ p{
     
 }
 
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
-#introduction img{
+.grid img{
+    max-width: 100%;
+    grid-column: 1/3;
+}
+
+#grid-visualisation{
+    display: grid;
+    grid-template-columns: minmax(1rem auto) repeat(12, minmax(0px, ))
+}
+
+/*#introduction img{
     max-height: 35rem;
     float:right;
-}
+} */
 
 .row-hero{
     width:1960;
     margin-bottom; 5rem;
+}
+
+
+@media screen and (max-device-width: 1200px) {
+    .grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-device-width: 600px) {
+    .grid{
+        display: initial;
+/*        grid-template-columns: 1fr;*/
+    }
 }
